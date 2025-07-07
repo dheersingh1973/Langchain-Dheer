@@ -1,0 +1,10 @@
+langchain_openai
+langchain_community
+langchain
+pydantic
+python-dotenv
+langchain_core
+langchain_google_firestore
+langchain_google_genai
+langchain_anthropic
+langchain_chroma
