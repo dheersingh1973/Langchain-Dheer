@@ -62,6 +62,6 @@ chain = (
 )
 
 # Run the chain
-result = chain.invoke({"user_location": "Lucknow"})
+result = chain.invoke({"user_location": "Bengaluru"})
 
 print(result)
