@@ -7,8 +7,6 @@ load_dotenv()
 
 # Create a ChatOpenAI model
 model = ChatOpenAI(model="gpt-4o")
-
-
 chat_history = []  # Use a list to store messages
 
 # Set an initial system message (optional)
