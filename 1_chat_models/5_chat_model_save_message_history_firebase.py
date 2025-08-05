@@ -17,13 +17,13 @@ Steps to replicate this example:
     - Set your default project to the new Firebase project you created
 5. pip install langchain-google-firestore
 6. Enable the Firestore API in the Google Cloud Console:
-    - https://console.cloud.google.com/apis/enableflow?apiid=firestore.googleapis.com&project=crewai-automation
+    - https://console.cloud.google.com/apis/enableflow;apiid=firestore.googleapis.com?project=langchain-77120&inv=1&invt=Ab4orA
 """
 
 load_dotenv()
 
 # Setup Firebase Firestore
-PROJECT_ID = "langchain-a5989"
+PROJECT_ID = "langchain-77120"
 SESSION_ID = "user_session_new"  # This could be a username or a unique ID
 COLLECTION_NAME = "chat_history"
 
