@@ -28,7 +28,7 @@ translation_template = ChatPromptTemplate.from_messages(
 
 # Define additional processing steps using RunnableLambda
 count_words = RunnableLambda(lambda x: f"Word count: {len(x.split())}\n{x}")
-prepare_for_translation = RunnableLambda(lambda output: {"text": output, "language": "french"})
+prepare_for_translation = RunnableLambda(lambda output: {"text": output, "language": "hindi"})
 
 
 # Create the combined chain using LangChain Expression Language (LCEL)
